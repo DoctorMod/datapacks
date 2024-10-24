@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:warped_fungus"
+        },
+        "title": "Big Fungus",
+        "description": "Defeat a Warped Sporebloom"
+    },
+    "parent": "revamp:dimensions/mushroom",
+    "criteria": {
+        "requirements": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": [{
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "type": "minecraft:drowned",
+                        "team": "sporebloom"
+                    }
+                }]
+            }
+        }
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wither_rose"
+        },
+        "title": {
+            "text": "From The Shadows."
+        },
+        "description": {
+            "text": "Collect a full set Riftweave Armor"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "revamp:other/challenge",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [{
+                        "item": "minecraft:netherite_boots",
+                        "nbt": "{Tags:['riftarmor']}"
+                    },
+                    {
+                        "item": "minecraft:netherite_leggings",
+                        "nbt": "{Tags:['riftarmor']}"
+                    },
+                    {
+                        "item": "minecraft:netherite_chestplate",
+                        "nbt": "{Tags:['riftarmor']}"
+                    },
+                    {
+                        "item": "minecraft:player_head",
+                        "nbt": "{Tags:['riftarmor']}"
+                    }
+                ]
+            }
+        }
+    }
+}

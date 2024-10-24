@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:anvil"
+        },
+        "title": {
+            "text": "New Beyonds: Advancements",
+            "color": "blue"
+        },
+        "description": {
+            "text": "Welcome to the New Beyonds SMP Advancement Page"
+        },
+        "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

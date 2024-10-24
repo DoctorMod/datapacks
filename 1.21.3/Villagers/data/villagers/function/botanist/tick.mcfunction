@@ -1,0 +1,3 @@
+execute at @a as @e[type=block_display,distance=..15,tag=villager.botanist] at @s run function villagers:botanist/job_block
+execute at @a if entity @e[type=villager,distance=..30,nbt={active_effects:[{id:"minecraft:regeneration"}]}] run function villagers:botanist/trades
+execute as @e[type=block_display,tag=villager.botanist,tag=!villager.selectedVillager] at @s if entity @e[type=villager,distance=..3,nbt={VillagerData:{profession:"minecraft:farmer"}}] run function villagers:botanist/villager_generate

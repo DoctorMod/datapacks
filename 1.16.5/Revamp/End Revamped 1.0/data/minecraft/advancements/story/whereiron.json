@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_nugget"
+        },
+        "title": "Where is my Armor?",
+        "description": "Check out the recipes page to see how to craft a forge.",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "minecraft:story/smelt_iron",
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [{
+                    "item": "minecraft:iron_ingot"
+                }]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "iron"
+        ]
+    ]
+}

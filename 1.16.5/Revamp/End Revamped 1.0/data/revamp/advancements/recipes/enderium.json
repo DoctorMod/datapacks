@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:popped_chorus_fruit"
+        },
+        "title": "Enderium Items",
+        "description": "Craft Enderium Items With a Netherite Item with an Enderium Ingot on a smithing table",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "revamp:recipes/use_forge",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

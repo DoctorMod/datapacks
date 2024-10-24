@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:popped_chorus_fruit",
+            "nbt": "{CustomModelData:\"arcanestaff\"}"
+        },
+        "title": {
+            "text": "Cuphead."
+        },
+        "description": {
+            "text": "Make a trade with the Arcane."
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "revamp:other/challenge",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [{
+                    "item": "minecraft:popped_chorus_fruit",
+                    "nbt": "{CustomModelData:\"arcanestaff\"}"
+                }]
+            }
+        }
+    }
+}

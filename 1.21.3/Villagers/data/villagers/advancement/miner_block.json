@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:raw_iron_block",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": "Miner's Raw Iron",
+    "description": "Craft a Miner's Raw Iron to unlock the Miner villager profession.",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "villagers:emerald",
+  "criteria": {
+    "craft_piston": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "villagers:miner"
+      }
+    }
+  }
+}

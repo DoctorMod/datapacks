@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:emerald",
+      "count": 1
+    },
+    "title": "Baby's First Emerald",
+    "description": "How about you try crafting one of the new job blocks for more trades!",
+    "background": "minecraft:textures/block/emerald_block.png",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "villagers:root",
+  "criteria": {
+    "emerald": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:emerald"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "emerald"
+    ]
+  ],
+  "rewards": {
+    "function": "villagers:grant_recipe"
+  },
+  "sends_telemetry_event": true
+}

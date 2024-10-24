@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      "minecraft:warped_wart_block",
+      "minecraft:emerald"
+    ],
+    "result": {
+      "id": "minecraft:bat_spawn_egg",
+      "components": {
+        "minecraft:item_name": "{\"text\":\"Alchemist's Warped Wart\"}",
+        "minecraft:lore": [
+          "{\"color\":\"gray\",\"italic\":false,\"text\":\"When placed down, can be used \"}",
+          "{\"color\":\"gray\",\"italic\":false,\"text\":\"to make villagers sell potion bits.\"}"
+        ],
+        "minecraft:entity_data": {
+          "id": "minecraft:block_display",
+          "Tags": ["villager.alchemist"],
+          "brightness": {"sky":15,"block":10},
+          "transformation": {
+            "left_rotation" :[0,0,0,1],
+            "right_rotation":[0,0,0,1],
+            "translation":[0,0,0],
+            "scale":[1.001,1.001,1.001]
+          },
+          "block_state": {"Name":"minecraft:warped_wart_block"}
+        },
+        "minecraft:item_model": "minecraft:warped_wart_block",
+        "minecraft:enchantment_glint_override": true
+      }
+    }
+  }
+  

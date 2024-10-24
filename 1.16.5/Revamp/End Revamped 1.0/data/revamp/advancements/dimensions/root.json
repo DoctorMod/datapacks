@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:end_portal_frame"
+        },
+        "title": {
+            "text": "New Beyonds: Dimensions",
+            "color": "dark_purple"
+        },
+        "description": {
+            "text": "Welcome to the New Beyonds SMP Dimension Advancements"
+        },
+        "background": "minecraft:textures/gui/advancements/backgrounds/end.png",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "dimension": "revamp:nowhere"
+                }
+            }
+        }
+    }
+}

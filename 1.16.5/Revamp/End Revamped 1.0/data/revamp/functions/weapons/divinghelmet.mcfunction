@@ -1,0 +1,2 @@
+execute as @a[nbt={Inventory:[{Slot:103b,id:"minecraft:player_head",tag:{Tags:["divinghelm"]}}]}] at @s if block ~ ~ ~ minecraft:water run effect give @s minecraft:conduit_power 1 2 true
+execute as @a[nbt={Inventory:[{Slot:103b,id:"minecraft:player_head",tag:{Tags:["divinghelm"]}}]}] at @s if block ~ ~ ~ minecraft:water run effect give @s minecraft:water_breathing 1 0 true

@@ -1,0 +1,3 @@
+execute at @a as @e[type=block_display,distance=..15,tag=villager.piston] at @s run function villagers:engineer/job_block
+execute at @a if entity @e[type=villager,distance=..30,nbt={active_effects:[{id:"minecraft:regeneration"}]}] run function villagers:engineer/trades
+execute as @e[type=block_display,tag=villager.piston,tag=!villager.selectedVillager] at @s if entity @e[type=villager,distance=..3,nbt={VillagerData:{profession:"minecraft:armorer"}}] run function villagers:engineer/villager_generate

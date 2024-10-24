@@ -1,0 +1,41 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:redstone"
+        },
+        "title": {
+            "text": "Jarvis: Online."
+        },
+        "description": {
+            "text": "Collect a full set of Mechanist Armor"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "revamp:other/challenge",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [{
+                        "item": "minecraft:iron_boots",
+                        "nbt": "{Tags:['pistonboots']}"
+                    },
+                    {
+                        "item": "minecraft:netherite_leggings",
+                        "nbt": "{Tags:['jetpant']}"
+                    },
+                    {
+                        "item": "minecraft:iron_chestplate",
+                        "nbt": "{Tags:['repulsion']}"
+                    },
+                    {
+                        "item": "minecraft:player_head",
+                        "nbt": "{Tags:['divinghelm']}"
+                    }
+                ]
+            }
+        }
+    }
+}

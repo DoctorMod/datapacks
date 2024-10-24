@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:unluck": {
+            "amplifier": 25
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "potion:drank/shrink/two"
+  }
+}

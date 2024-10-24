@@ -1,0 +1,41 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:feather"
+        },
+        "title": {
+            "text": "Hi, I'm Aang!"
+        },
+        "description": {
+            "text": "Collect a full set of Arcane Armor"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "revamp:other/arcanetrade",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [{
+                        "item": "minecraft:golden_boots",
+                        "nbt": "{Tags:['boomboots']}"
+                    },
+                    {
+                        "item": "minecraft:iron_leggings",
+                        "nbt": "{Tags:['icewave']}"
+                    },
+                    {
+                        "item": "minecraft:golden_chestplate",
+                        "nbt": "{Tags:['fireplate']}"
+                    },
+                    {
+                        "item": "minecraft:player_head",
+                        "nbt": "{Tags:['cloudhelm']}"
+                    }
+                ]
+            }
+        }
+    }
+}

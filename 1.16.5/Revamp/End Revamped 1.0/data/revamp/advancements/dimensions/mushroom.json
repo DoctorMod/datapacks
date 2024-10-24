@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:warped_nylium"
+        },
+        "title": "Chaotic Alfredo",
+        "description": "Enter the Warped Mushroom Forest"
+    },
+    "parent": "revamp:dimensions/nowhere",
+    "criteria": {
+        "requirements": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "biome": "revamp:warped_mushroom_forest"
+                }
+            }
+        }
+    }
+}

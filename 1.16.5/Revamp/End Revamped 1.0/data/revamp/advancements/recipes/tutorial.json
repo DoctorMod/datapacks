@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:crafting_table"
+        },
+        "title": "Custom Crafting System",
+        "description": "We Have a System Where You Can Drop Items on a Specific Block and it Will Craft it.",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "revamp:recipes/root",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "revamp:chain_boots",
+            "revamp:chain_chestplate",
+            "revamp:chain_leggings",
+            "revamp:chain_helmet"
+        ]
+    }
+}

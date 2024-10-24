@@ -1,0 +1,2 @@
+advancement grant @a[nbt={SelectedItem:{id:"minecraft:popped_chorus_fruit"}},nbt=!{SelectedItem:{tag:{CustomModelData:"arcanestaff"}}}] only revamp:dimensions/enderium
+advancement grant @a[nbt={SelectedItem:{id:"minecraft:popped_chorus_fruit"}},nbt=!{SelectedItem:{tag:{CustomModelData:"arcanestaff"}}}] only revamp:recipes/enderium

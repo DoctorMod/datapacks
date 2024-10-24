@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:blackstone"
+        },
+        "title": "The Only Truth",
+        "description": "Enter the Darklands"
+    },
+    "parent": "revamp:dimensions/nowhere",
+    "criteria": {
+        "requirements": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "biome": "revamp:darklands"
+                }
+            }
+        }
+    }
+}

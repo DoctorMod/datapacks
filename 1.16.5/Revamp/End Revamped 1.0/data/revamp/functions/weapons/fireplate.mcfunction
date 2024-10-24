@@ -1,0 +1,5 @@
+execute as @a[nbt={Inventory:[{Slot:102b,id:"minecraft:golden_chestplate",tag:{Tags:["fireplate"]}}]},scores={sneak=1}] run effect give @s resistance 1 1 true
+execute as @a[nbt={Inventory:[{Slot:102b,id:"minecraft:golden_chestplate",tag:{Tags:["fireplate"]}}]},scores={sneak=1}] run effect give @s fire_resistance 1 0 true
+execute as @a[nbt={Inventory:[{Slot:102b,id:"minecraft:golden_chestplate",tag:{Tags:["fireplate"]}}]},scores={sneak=1}] run effect give @s slowness 5 2 true
+execute as @a[nbt={Inventory:[{Slot:102b,id:"minecraft:golden_chestplate",tag:{Tags:["fireplate"]}}]},scores={sneak=1}] at @s run particle lava ~ ~1 ~ 0.25 0.5 0.25 0.01 1
+execute as @a[nbt={Inventory:[{Slot:102b,id:"minecraft:golden_chestplate",tag:{Tags:["fireplate"]}}]},scores={sneak=1}] at @s run particle ash ~ ~1 ~ 0.25 0.5 0.25 0 50

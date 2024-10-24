@@ -1,0 +1,3 @@
+execute at @a as @e[type=block_display,distance=..15,tag=villager.archeologist] at @s run function villagers:archeologist/job_block
+execute at @a if entity @e[type=villager,distance=..30,nbt={active_effects:[{id:"minecraft:regeneration"}]}] run function villagers:archeologist/trades
+execute as @e[type=block_display,tag=villager.archeologist,tag=!villager.selectedVillager] at @s if entity @e[type=villager,distance=..3,nbt={VillagerData:{profession:"minecraft:shepherd"}}] run function villagers:archeologist/villager_generate

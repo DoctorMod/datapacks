@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "entered_end_gateway": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "minecraft:end_gateway"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "entered_end_gateway"
+        ]
+    ],
+    "rewards": {
+        "function": "revamp:travel/gatetravel"
+    }
+}

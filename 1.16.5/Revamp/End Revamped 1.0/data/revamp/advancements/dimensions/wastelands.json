@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:mycelium"
+        },
+        "title": "War Never Changes",
+        "description": "Enter the Wastelands"
+    },
+    "parent": "revamp:dimensions/nowhere",
+    "criteria": {
+        "requirements": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "biome": "revamp:wastelands"
+                }
+            }
+        }
+    }
+}

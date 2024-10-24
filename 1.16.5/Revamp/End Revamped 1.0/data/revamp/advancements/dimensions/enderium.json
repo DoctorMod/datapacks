@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:popped_chorus_fruit"
+        },
+        "title": "Man of Ender",
+        "description": "Collect an Enderium Ingot",
+        "frame": "goal"
+    },
+    "parent": "revamp:dimensions/chorus",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

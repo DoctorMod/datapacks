@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:blast_furnace"
+        },
+        "title": "Forging a Friendship",
+        "description": "Craft a Forge with 1 Blast Furnace, 1 Lava Bucket, 3 Smooth Stone Slabs and 9 Stonebricks on a Smithing Table.",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "revamp:recipes/tutorial",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

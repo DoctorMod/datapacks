@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:chorus_fruit"
+        },
+        "title": "Purple Jungle Fever",
+        "description": "Enter a Chorus Jungle"
+    },
+    "parent": "revamp:dimensions/nowhere",
+    "criteria": {
+        "requirements": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "biome": "revamp:chorus_jungle"
+                }
+            }
+        }
+    }
+}

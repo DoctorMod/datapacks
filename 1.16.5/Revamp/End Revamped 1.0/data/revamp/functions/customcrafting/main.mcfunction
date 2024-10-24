@@ -1,0 +1,4 @@
+function revamp:customcrafting/enderium
+function revamp:customcrafting/armor
+function revamp:customcrafting/regular
+function revamp:customcrafting/forge
