@@ -1,0 +1,1 @@
+give @s command_block_minecart[item_name='"Minecart with Drill"',lore=['{"color":"gray","italic":false,"text":"automatically mines a 3x3 grid on rails."}'],minecraft:entity_data={"id":"minecraft:command_block_minecart","Command":"drill:summon_train"}] 1

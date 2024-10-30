@@ -1,0 +1,1 @@
+execute as @a[scores={laser.click=1..},nbt={SelectedItem:{components:{"minecraft:custom_data":{laser:true}}}}] run function laser:right_click

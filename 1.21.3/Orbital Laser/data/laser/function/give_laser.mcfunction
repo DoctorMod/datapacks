@@ -1,0 +1,1 @@
+give @s carrot_on_a_stick[item_name='"Orbital Laser"',rarity="epic",item_model="eye_armor_trim_smithing_template",custom_data={laser:true},lore=['{"color":"gray","italic":false,"text":"Right Click to spawn an orbital laser."}','" "','[{"color":"dark_purple","italic":false,"text":"Range:"},{"color":"gray","text":" 100 Blocks"}]'],unbreakable={},enchantment_glint_override=true] 1

@@ -1,0 +1,31 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:eye_armor_trim_smithing_template",
+        "count": 1,
+        "components": {
+          "minecraft:enchantment_glint_override": true
+        }
+      },
+      "title": {
+        "text": "Orbital What!?"
+      },
+      "description": {
+        "text": "Craft an Orbital Laser."
+      },
+      "frame": "challenge"
+    },
+    "parent": "minecraft:nether/netherite_armor",
+    "criteria": {
+      "craft_laser": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "laser:orbital"
+        }
+      }
+    },
+    "rewards": {
+      "experience": 100
+    }
+  }
+  

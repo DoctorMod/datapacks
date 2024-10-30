@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "FHD",
+    "CBO",
+    "AAA"
+  ],
+  "key": {
+    "F": "minecraft:furnace_minecart",
+    "H": "minecraft:hopper_minecart",
+    "D": "minecraft:diamond_pickaxe",
+    "C": "minecraft:chest_minecart",
+    "B": "minecraft:blaze_rod",
+    "O": "minecraft:observer",
+    "A": "minecraft:anvil"
+  },
+  "result": {
+    "id": "minecraft:command_block_minecart",
+    "components": {
+      "minecraft:item_name": "{\"text\":\"Minecart with Drill\"}",
+      "minecraft:lore": [
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"automatically mines a 3x3 grid on rails.\"}"
+      ],
+      "minecraft:entity_data": {
+        "id": "minecraft:command_block_minecart",
+        "Command": "drill:summon_train"
+      },
+      "minecraft:enchantment_glint_override": true
+    }
+  }
+}
