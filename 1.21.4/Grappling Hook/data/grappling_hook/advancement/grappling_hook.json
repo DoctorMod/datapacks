@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:adventure/minecraft_trials_edition",
+  "criteria": {
+    "overoverkill": {
+      "conditions": {
+        "recipe_id": "grappling_hook:grapple"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "description": "Swinging around like spiderman!",
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:warped_fungus_on_a_stick"
+    },
+    "title": "Grappling Hook"
+  },
+  "requirements": [
+    [
+      "overoverkill"
+    ]
+  ],
+  "sends_telemetry_event": false
+}
