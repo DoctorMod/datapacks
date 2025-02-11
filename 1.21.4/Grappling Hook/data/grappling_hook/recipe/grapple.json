@@ -1,0 +1,64 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"L": "minecraft:lever",
+		"P": "minecraft:sticky_piston",
+		"B": "minecraft:breeze_rod",
+		"C": "minecraft:chain",
+		"H": "minecraft:heavy_core"
+	},
+	"pattern": [
+		" LP",
+		" BC",
+		"B H"
+	],
+	"result": {
+		"id": "minecraft:snowball",
+		"components": {
+			"minecraft:item_model": "warped_fungus_on_a_stick",
+            "minecraft:max_stack_size": 1,
+            "minecraft:max_damage": 130,
+            "minecraft:damage": 0,
+			"minecraft:custom_data": "{grapplehook:1b,grapple_hook_replace:1b}",
+            "custom_model_data": {
+                "strings": ["grapplehook"]
+            },
+			"minecraft:item_name": "\"Grappling Hook\"",
+			"use_remainder": {
+				"id": "minecraft:snowball",
+				"count": 1,
+				"components": {
+					"minecraft:max_stack_size": 1,
+					"minecraft:max_damage": 130,
+					"minecraft:damage": 0,
+					"minecraft:item_model": "fishing_rod",
+					"minecraft:custom_data": "{grapplehook:1b}",
+                    "custom_model_data": {
+                        "strings": ["grapplehook_thrown"]
+                    },
+					"minecraft:item_name": "\"Gappling Hook\"",
+					"minecraft:use_cooldown": {
+						"seconds": 3,
+						"cooldown_group": "grappling_hook:grapple"
+					},
+					"minecraft:use_remainder": {
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:max_damage": 130,
+							"minecraft:damage": 131,
+							"minecraft:item_model": "warped_fungus_on_a_stick",
+							"minecraft:custom_data": "{grapplehook:1b,grapple_hook_replace:1b}",
+                            "custom_model_data": {
+                                "strings": ["grapplehook"]
+                            },
+							"minecraft:item_name": "\"Grappling Hook\""
+						},
+						"id": "minecraft:snowball"
+					}
+				}
+			}
+		}
+	},
+	"show_notification": true
+}
